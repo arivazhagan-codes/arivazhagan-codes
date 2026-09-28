@@ -58,16 +58,6 @@ A successful AI system isn't just a good prompt or a powerful model. It needs th
 
 ---
 
-## ✍️ Writing & Knowledge Sharing
-
-I write about practical AI engineering, .NET, Azure, and lessons learned from building production systems.
-
-* 📝 **[Post title](link)** — One-line takeaway
-* 📝 **[Post title](link)** — One-line takeaway
-* 📝 **[Post title](link)** — One-line takeaway
-
----
-
 ## 🤝 Connect
 
 I'm interested in **AI engineering, Azure architecture, .NET, developer tooling, and building reliable enterprise AI systems**.
