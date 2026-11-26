@@ -10,7 +10,7 @@ My work sits at the intersection of **.NET engineering, Azure AI, LLM applicatio
 
 * 🤖 **Generative AI & LLM Applications** — Azure OpenAI, RAG, prompt engineering, tool calling, structured outputs, and evaluation
 * 📄 **Document Intelligence** — intelligent document processing with Azure AI Document Intelligence, LLM-based extraction, validation, and human-in-the-loop workflows
-* 🧠 **AI Agents** — agent orchestration, Semantic Kernel, tool integration, guardrails, memory, and workflow automation
+* 🧠 **AI Agents** — agent orchestration with Microsoft Agent Framework and Semantic Kernel, tool calling, MCP, guardrails, human-in-the-loop approval, and workflow automation
 * ☁️ **Azure Platforms** — scalable cloud-native services, Azure AI services, APIs, messaging, storage, security, and observability
 * ⚙️ **Enterprise .NET** — ASP.NET Core, C#, SQL Server, microservices, APIs, background processing, and distributed systems
 * 🔄 **Automation & Modernization** — evolving traditional RPA and enterprise workflows into intelligent AI-powered platforms
@@ -24,7 +24,7 @@ My work sits at the intersection of **.NET engineering, Azure AI, LLM applicatio
 
 **AI & Data**
 
-`Azure OpenAI` · `Azure AI` · `Document Intelligence` · `Semantic Kernel` · `RAG` · `LLM Agents` · `Vector Search` · `AI Evaluation`
+`Azure OpenAI` · `Azure AI Foundry` · `Azure AI Search` · `Document Intelligence` · `Microsoft Agent Framework` · `Semantic Kernel` · `Microsoft.Extensions.AI` · `MCP` · `RAG` · `Hybrid & Vector Search` · `AI Evaluation`
 
 **Azure & Cloud**
 
@@ -38,11 +38,10 @@ My work sits at the intersection of **.NET engineering, Azure AI, LLM applicatio
 
 ## ⭐ Featured Projects
 
-| Project                           | What it demonstrates                                                                                                                     |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| 📄 **[docintel-pipeline](link)**  | Production-style document extraction using Azure AI Document Intelligence + Azure OpenAI, with validation, evaluation, and cost tracking |
-| 🤖 **[agent-orchestrator](link)** | Agentic workflow orchestration with Semantic Kernel, tool calling, guardrails, and human-in-the-loop execution                           |
-| 🛡️ **[llm-gateway](link)**       | ASP.NET Core gateway for LLM applications with rate limiting, caching, PII redaction, token budgets, and centralized observability       |
+| Project | What it demonstrates | Stack |
+| ------- | -------------------- | ----- |
+| 🔎 **[azure-rag-production](https://github.com/arivazhagan-codes/azure-rag-production)** | Reference RAG API that tackles four common production failures: structure-aware chunking, hybrid search with identifier boosting, Entra ID security trimming that fails closed, and retrieval evaluation as a CI gate | .NET · Azure AI Search · Azure OpenAI · Document Intelligence |
+| 🤖 **[DevPartner](https://github.com/arivazhagan-codes/DevPartner)** | Local coding agent for the terminal: explores a repo, edits code, and runs builds and tests. Approval-gated edits and shell commands, workspace-confined file access, secret-file blocking, and pluggable providers (Azure OpenAI, OpenAI, Ollama) | .NET 10 · Microsoft.Extensions.AI · xUnit |
 
 ---
 
@@ -62,13 +61,12 @@ A successful AI system isn't just a good prompt or a powerful model. It needs th
 
 I'm interested in **AI engineering, Azure architecture, .NET, developer tooling, and building reliable enterprise AI systems**.
 
-📫 **[LinkedIn](https://linkedin.com/in/arivazhagan-asaithambi)**
-📸 **[Instagram](https://instagram.com/arivazhagan.codes)**
+📫 **[LinkedIn](https://linkedin.com/in/arivazhagan-asaithambi)** · 📸 **[Instagram](https://instagram.com/arivazhagan.codes)** · 📍 Coimbatore, India
 
 ---
 
 ### ⚡ Currently
 
-**Building with:** .NET + Azure + AI
-**Exploring:** Agentic systems, LLM evaluation, AI architecture & production AI
-**Focus:** Turning AI capabilities into reliable enterprise software
+- 🔨 **Building:** [DevPartner](https://github.com/arivazhagan-codes/DevPartner), a safe, provider-agnostic coding agent in .NET
+- 🔭 **Exploring:** agentic systems, MCP tooling, LLM evaluation, and production AI architecture
+- 🎯 **Focus:** turning AI capabilities into reliable enterprise software
